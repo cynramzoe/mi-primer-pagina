@@ -1,0 +1,67 @@
+ /* estilos generales*/
+ *{
+  font-family: "Bebas Neue", sans-serif;
+}
+li{list-style: none;
+display: flex;
+    gap: 20px;        /* Controla el espacio entre los elementos */
+    padding: 0;       /* Elimina el espacio interno predeterminado */
+    margin: 0;        /* Elimina los márgenes predeterminados */
+}
+li {
+    display: inline-block;
+    margin-right: 20px; /* Espacio entre cada elemento */
+}
+a{ text-decoration: none;
+color:aliceblue;
+}
+
+
+/*header*/
+.indexHeader{background-image: url(../assets/header.png);
+height: 500px;}
+.headerH1{
+    width: 100%;
+    color: aliceblue;
+    
+}
+/*main*/
+.body1{
+    background-color: #131314;
+    color: #e3e3e3; /* Color de texto claro para que haga buen contraste */
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.2rem; /* Esto achica el título de cada modelo de PC */
+}
+
+p {
+    font-size: 0.95rem; /* Esto achica el texto de la descripción */
+    line-height: 1.4;
+}
+
+/*footer*/
+
+
+/* Si tienen una clase, por ejemplo .social-icon */
+.iconx {
+    width: 32px;  /* O el tamaño en píxeles que prefieras, ej: 24px, 40px */
+    height: auto; /* Mantiene la proporción original */
+}
+.iconinsta {
+    width: 32px;  /* O el tamaño en píxeles que prefieras, ej: 24px, 40px */
+    height: auto; /* Mantiene la proporción original */
+}
+
+.copyr {
+    text-align: center;
+}
+
